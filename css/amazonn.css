@@ -1,0 +1,489 @@
+
+/* ==========================reset==================================== */
+
+*{
+	margin: 0; padding: 0;
+}
+img{
+	max-width: 100%;
+}
+body{
+	overflow-y: scroll;/* overflow: hidden;width: 100%; */
+}
+li{
+	list-style-type: none; float: left;
+}
+/* ===========================header===================================*/
+.top{background-color: rgba(40, 38, 38, 0.97); padding: 2% 0; position: relative;}
+
+.logo h1{margin-top: 0; margin-bottom: 0px; position: absolute; top: 2%;left: 3%; color: #fff;
+	font-family: 'Asar', serif;}
+
+.logo p{position: absolute;top: 45%;left: 8%; color: #fff;font-family: 'Asar', serif;}
+
+.logo{float: left; }
+
+.sign{float: right; margin-right: 2%;}
+
+.sign a{color: #fff; text-decoration: none; font-family: 'Asar', serif;}
+.sign2{color: #fff; font-size: 23px;margin-right: 5px;}
+/* ==============================banner================================== */
+.banner2{
+	margin-right: 0; margin-left: 0; position: relative;
+}
+.banner{
+	background-color: #000; 
+}
+.welcome{color: #fff;margin-top: 10%; margin-left: 7%; font-size: 40px; line-height: 48px;font-family: 'Asar', serif;}
+
+.para{color: rgba(255, 255, 255, 0.75); font-size: 21px; line-height: 27px; font-family: 'Asar', serif;
+margin-left: 7%; margin-bottom: 10%;}
+.para span{text-decoration: line-through;}
+
+.movimage{margin-right: 0;}
+.movimage img{-webkit-border-radius: 4px 1px 1px 4px;
+border-radius: 4px 1px 1px 4px;}
+
+.trial{margin-left: 7%;}
+.trial a{
+	background-color: #00a9dc; padding: 3.3% 15%; width: 50%; text-align: center; font-size: 17px;
+	line-height: 22px; color: #fff;text-decoration: none; border: none;
+-webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px;
+}
+.trial p{
+	margin-top: 8%; color: rgba(255, 255, 255, 0.8);font-size: 15px ;line-height: 30px;
+}
+
+/* ========================content========================= */
+.content{
+	background-color: #000;
+}
+.pic{
+	margin-right: 0;
+
+}
+.welcome2{
+	color: #fff;margin-top: 15%; margin-left: 7%; font-size: 40px; line-height: 48px;font-family: 'Asar', serif;
+}
+
+/* =============================feature======================== */
+.feature{
+	background-color: #fff; padding-top: 6%;
+}
+.block{
+	text-align: center;
+}
+.block h1{
+	font-size: 36px; line-height: 47px; color: rgba(234, 60, 6, 0.9); font-weight: bold;
+	font-family: 'Handlee', cursive;
+}
+
+.block h1:hover{-moz-transform: scale(1.1) rotate(360deg);
+-webkit-transform: scale(1.1) rotate(360deg);
+-o-transform: scale(1.1) rotate(360deg);
+-ms-transform: scale(1.1) rotate(360deg);
+transform: scale(1.1) rotate(360deg);
+-webkit-transition: outline 2s ease-in-out;
+-moz-transition: outline 2s ease-in-out;
+-ms-transition: outline 2s ease-in-out;
+-o-transition: outline 2s ease-in-out;
+transition: outline 2s ease-in-out;}
+
+.block p{
+	font-size: 21px; line-height: 27px; font-weight: normal;font-family: 'Kurale', serif;
+}
+
+/* ==============================feature2=========================== */
+.feature2{
+	background-color: #9ceeed;
+}
+.luffy{
+	padding-top: 5%; padding-bottom: 10%; margin-left: 5%;
+}
+.luffy img{
+-webkit-border-radius: 12px 42px 78px 4px;
+border-radius: 12px 42px 78px 4px;margin-left: 2%;
+}
+.para2 h1{
+	    margin-top: 15%; margin-left: 5%;margin-bottom: 5%;
+	    	font-family: 'Asar', serif;
+}
+.para2 p{
+	font-weight: normal; font-size: 21px; line-height: 27px;font-family: 'Kurale', serif;
+	margin-left: 5%;
+}
+.trial2 a{
+   background-color: #00a9dc; padding: 3.3% 15%; width: 50%; text-align: center; font-size: 17px;
+	line-height: 22px; color: #fff;text-decoration: none; border: none;
+-webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px;
+}
+.trial2{
+	margin-top: 8%; margin-left: 5%;
+}
+/* ===============================offer================================ */
+.offer{
+	background-color: #000;padding: 7% 0;
+}
+.prime h1{
+	margin-bottom: 5%; font-family: 'Asar', serif; color: #fff;margin-left: 7%; width: 80%;
+}
+.trial3{
+	margin-top: 10%; margin-left: 7%;
+}
+.trial3 a{
+   background-color: #00a9dc; padding: 3.3% 15%; width: 50%; text-align: center; font-size: 17px;
+	line-height: 22px; color: #fff;text-decoration: none; border: none;
+-webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px;
+}
+.prime p{
+	font-weight: normal; font-size: 21px; line-height: 27px;font-family: 'Kurale', serif;
+	margin-left: 7%;color: #fff;
+}
+/* =================================offer2================================ */
+.offer2{
+	text-align: left;position: relative;
+}
+.offer2 a{  padding: 12px 15px 12px 10px; background-color: rgba(57, 210, 16, 0.8);margin-left: 10%; font-size: 25px;
+    color: #000;text-decoration: none; text-transform: uppercase;letter-spacing: 1px;
+	-webkit-box-shadow: 0 0 34px 1px #FF4F19;box-shadow: 0 0 34px 1px #FF4F19;-webkit-border-radius: 4px 6px 4px 6px;
+    border-radius: 4px 6px 4px 6px;
+}
+.offer3{padding-right: 4%;}
+.small{
+ 	position: absolute; margin-top: 2%;left: 12%;font-size: 75px;color: #00aad8;
+ }
+.small3{
+ 	position: absolute; margin-top: 1%;left: 48%;font-size: 75px;color: #0087b9;
+}
+ .two{
+ 	font-size: 200px;color: #00aad8;position: absolute;top: 28%;left: 17%;
+}
+.two span{
+	position: absolute;font-size: 25px;color: #00aad8;top: 80%;left: 18%;
+}
+.month{
+	position: absolute;font-size: 15px;color: #a6a6a6;margin-top: 29%;left: 21%;
+}
+.two2{
+ 	font-size: 200px;color: #0087b9;position: absolute;top: 28%;
+    left: 52%;
+}
+.two2 span{
+	position: absolute;font-size: 25px;color: #0087b9;top: 80%;left: 52%;
+}
+.small2{
+ 	position: absolute; margin-top: 1%;
+    left: 66%;font-size: 75px;color: #0087b9;
+ }
+.small22{position: absolute; margin-top: 1%;left: 31%;font-size: 75px;color: #00aad8;
+}
+.line{width: 30%;position: absolute;transform: rotate(140deg);left: 48%; margin-top: 15%;
+	border: 3px solid #7d0506;
+}
+
+/* ===================================footer============================ */
+.footer{
+	background-color: rgba(30, 31, 31, 1);text-align: center; padding: 2.1% 0;
+}
+.footerinfo p{
+	color: rgba(0, 140, 176, 0.9);font-size: 15px;line-height: 21px;
+}
+.footerinfo p span{
+	color: #949494;font-size: 15px;line-height: 21px;margin-left: 1%;
+}
+/* ======================extra css givencompared to media query==========  */
+.great{
+	padding-bottom: 6%;
+}
+.watch{
+	padding-bottom: 4%;
+}
+/* ================================media query 1========================== */
+@media only screen and (max-width: 1024px){
+	.logo p{top: 56%;}
+}
+
+@media only screen and (max-width: 1000px){
+	.top{padding-bottom: 2%;}
+}
+@media only screen and (max-width: 1000px){
+	.logo p{top: 58%;}
+}
+@media only screen and (max-width: 1024px){
+	.logo p{top: 56%;}
+}
+ @media only screen and (max-width: 1024px){
+ 	.small{font-size: 40px; margin-top: 5%;}
+  .two{font-size: 130px;left: 16.5%; margin-top: 2%;}	
+  .two2{font-size: 130px;left: 53%;margin-top: 2%;}
+  .small22{left: 29%;font-size: 50px;margin-top: 2.5%;}
+  .small3{font-size: 40px; margin-top: 3%;}
+  .small2 {left: 66%;font-size: 50px; margin-top: 2%;}
+  .line {left: 50%;width: 20%;margin-top: 13.5%;}
+  .offer2 a{font-size: 20px;}
+  .month{margin-top: 28%;}
+}
+
+@media only screen and (max-width: 991px){
+	.offer2{padding-top: 10%;padding-bottom: 25%;}
+.offer2 a{margin-left: 7%;}
+.month{margin-top: 22%;}
+.pic{margin-left: 13%;}
+.offer{margin-bottom: 0%;}
+.small{font-size: 65px; margin-top: 3%;}
+  .two{font-size: 170px;left: 16%; margin-top: 2%;}	
+  .two2{font-size: 170px;left: 52%;margin-top: 2%;}
+  .small22{left: 27%;font-size: 65px;margin-top: 2.1%;}
+  .small3{font-size: 65px; margin-top: 2%;}
+  .small2 {left: 63%;font-size: 65px; margin-top: 2%;}
+ .line {left: 48%; width: 20%; margin-top: 12%;}
+
+
+}
+@media only screen and (max-width: 960px){
+	.offer2{padding-top: 10%;padding-bottom: 25%;}
+.offer2 a{margin-left: 7%;}
+.month{margin-top: 19%;}
+.pic{margin-left: 13%;}
+.offer{margin-bottom: 0%;}
+.small{font-size: 65px; margin-top: 3%;}
+  .two{font-size: 140px;left: 16%; margin-top: 2%;}	
+  .two2{font-size: 140px;left: 52%;margin-top: 2%;}
+  .small22{left: 27%;font-size: 65px;margin-top: 2.1%;}
+  .small3{font-size: 65px; margin-top: 2%;}
+  .small2 {left: 63%;font-size: 65px; margin-top: 2%;}
+ .line {left: 48%; width: 20%; margin-top: 12%;}
+}
+
+@media only screen and (max-width: 930px){
+	.offer2{padding-top: 10%;padding-bottom: 25%;}
+.offer2 a{margin-left: 7%;}
+.month{margin-top: 19%;}
+.pic{margin-left: 13%;}
+.offer{margin-bottom: 0%;}
+.small{font-size: 65px; margin-top: 3%;}
+  .two{font-size: 120px;left: 17%; margin-top: 3%;}	
+  .two2{font-size: 120px;left: 53.2%;margin-top: 3.5%;}
+  .small22{left: 25%;font-size: 65px;margin-top: 2.1%;}
+  .small3{font-size: 65px; margin-top: 2%;}
+  .small2 {left: 61%;font-size: 65px; margin-top: 2%;}
+ .line {left: 51%; width: 16%; margin-top: 10%;}
+}
+@media only screen and (max-width: 838px){
+	.offer2{padding-top: 10%;padding-bottom: 25%;}
+.offer2 a{margin-left: 7%;}
+.month{margin-top: 19%;}
+.pic{margin-left: 13%;}
+.offer{margin-bottom: 0%;}
+.small{font-size: 65px; margin-top: 3%;}
+  .two{font-size: 100px;left: 17%; margin-top: 3%;}	
+  .two2{font-size: 100px;left: 53.2%;margin-top: 3.5%;}
+  .small22{left: 25%;font-size: 65px;margin-top: 2.1%;}
+  .small3{font-size: 65px; margin-top: 2%;}
+  .small2 {left: 61%;font-size: 65px; margin-top: 2%;}
+ .line {left: 51%; width: 16%; margin-top: 10%;}
+}
+
+
+/* ================================media query 1========================== */
+@media only screen and (max-width: 768px){
+
+.logo p{top: 60%;}
+.slider4   {margin-left: 0;margin-right: 4%;}
+.small3 {left: 53%;}
+.two2 {left: 58%;}
+.small2  {left: 69%;}
+.line  {left: 55%;}
+.small22{left: 27%; font-size: 50px; margin-top: 3%;}
+ .line {left: 55%; width: 19%; margin-top: 10%;}
+
+.pic{
+	margin-top: 3%; margin-left: 2.3%;
+}
+.offer{
+	padding-bottom: 10%;
+}
+.offer2{
+	padding-top: 10%;padding-bottom: 25%;
+}
+.offer2 a{
+	margin-left: 7%;
+}
+.month{
+	margin-top: 22%;
+}
+
+}
+/* ================================media query 2 for logo========================== */
+
+
+
+@media only screen and (max-width: 580px){
+	.top{padding-bottom: 4%;}
+}
+
+@media only screen and (max-width: 510px){
+	.logo p{top: 58%;}
+}
+@media only screen and (max-width: 435px){
+	.top{padding-bottom: 5%;}
+}
+@media only screen and (max-width: 368px){
+	.top{padding-bottom: 6.5%;}
+}
+@media only screen and (max-width: 655px){
+	.top{padding-bottom: 3%;}
+}
+	@media only screen and (max-width: 494px){
+	.top{padding-bottom: 5%;}
+}
+@media only screen and (max-width: 350px){
+	.top{padding-bottom: 7%;}
+}
+/* ===============================media query $ and money number======================= */
+ 
+@media only screen and (max-width: 722px){
+  .two{font-size: 160px; left: 17%;}	
+  .two2{font-size: 160px;left: 57%; }
+  .small22{left: 30%; }
+  .small2{left: 71%;}
+  .line {left: 55%; width: 20%; margin-top: 14%;}
+  }
+ @media only screen and (max-width: 654px){
+  .two{font-size: 146px; left: 18%;}	
+  .two2{font-size: 146px; left: 57%; }
+  .small22{left: 33%; }
+}
+ @media only screen and (max-width: 580px){
+  .two{font-size: 140px;left: 19.7%; margin-top: 2%;}	
+  .two2{font-size: 140px; left: 60.5%;margin-top: 2%; }
+  .small22{left: 33.7%;  }
+  .small2{left: 72%;}
+}
+ @media only screen and (max-width: 534px){
+ 	.small{font-size: 65px; margin-top: 2.7%;}
+  .two{font-size: 120px;left: 20%; margin-top: 2%;}	
+  .two2{font-size: 120px;left: 61.5%;margin-top: 2%;}
+  .small22{left: 33.7%;font-size: 65px;}
+  .small3{font-size: 65px;}
+  .small2 {left: 76%;font-size: 65px;}
+}
+ @media only screen and (max-width: 462px){
+ 	.small{font-size: 58px; margin-top: 3.1%;}
+  .two{font-size: 100px;left: 20%; margin-top: 5.2%;}	
+  .two2{font-size: 100px;left: 61.5%;margin-top: 5.2%;}
+  .small22{left: 33.7%;font-size: 65px;}
+  .small3{font-size: 58px;}
+  .small2 {left: 76%;font-size: 65px;}
+  .offer2 a{font-size: 20px;}
+}
+ @media only screen and (max-width: 450px){
+ 	.small{font-size: 40px; margin-top: 5%;}
+  .two{font-size: 80px;left: 18%; margin-top: 7.2%;}	
+  .two2{font-size: 80px;left: 59%;margin-top: 7.2%;}
+  .small22{left: 29%;font-size: 50px;margin-top: 2%;}
+  .small3{font-size: 40px; margin-top: 3%;}
+  .small2 {left: 70%;font-size: 50px; margin-top: 2%;}
+  .line {left: 55%;width: 20%;margin-top: 14%;}
+  .offer2 a{font-size: 20px;}
+}
+@media only screen and (max-width: 391px){
+	.offer2 a{font-size: 18px;}
+	.small{font-size: 35px; margin-top: 6%;}
+  .two{font-size: 65px;left: 18%; margin-top: 7.2%;}	
+  .two2{font-size: 65px;left: 59%;margin-top: 7.2%;}
+  .small22{left: 29%;font-size: 45px;margin-top: 2.4%;}
+  .small3{font-size: 35px; margin-top: 3%;}
+  .small2 {left: 70%;font-size: 45px; margin-top: 2%;}
+  .line {left: 55%;width: 20%;margin-top: 14%;}
+  .two span{font-size: 22px;}
+	.two2 span{font-size: 22px;}
+   .month{margin-top: 27%;}
+}
+@media only screen and (max-width: 366px){
+	.two span{font-size: 20px;}
+	.two2 span{font-size: 20px;}
+}
+@media only screen and (max-width: 340px){
+	.month{margin-top: 28.5%;}
+}
+/* @media only screen and (max-width: 732px){
+	.month{margin-top: 31.5%;}
+} */
+@media only screen and (max-width: 750px){
+	.month{margin-top: 19.5%;margin-left: 2%;}
+}
+@media only screen and (max-width: 725px){
+	.month{margin-top: 23%;margin-left: 2%;}
+}
+@media only screen and (max-width: 722px){
+	.month{margin-top: 28%;margin-left: 2%;}
+}
+@media only screen and (max-width: 718px){
+	.month{margin-top: 28%;}
+}
+@media only screen and (max-width: 698px){
+	.month{margin-top: 29%;font-size: 14px;}
+}
+@media only screen and (max-width: 675px){
+	.month{margin-top: 30.4%;font-size: 14px;}
+}
+@media only screen and (max-width: 654px){
+	.month{margin-top: 28%;font-size: 14px;}
+}
+@media only screen and (max-width: 622px){
+	.month{margin-top: 29%;font-size: 14px;}
+}
+@media only screen and (max-width: 609px){
+	.month{margin-top: 29.8%;font-size: 14px;}
+}
+@media only screen and (max-width: 565px){
+	.month{margin-top: 31%;font-size: 14px; margin-left: 3.3%;}
+	/* .offer{
+		padding-bottom: 12%;
+	} */
+}
+@media only screen and (max-width: 446px){
+	.offer{padding-bottom: 12%;}
+	.month{margin-top: 29%;}
+}
+
+
+@media only screen and (max-width: 375px){
+	.month{margin-top: 27%;font-size: 14px;}
+}
+@media only screen and (max-width: 320px){
+	.month{margin-top: 29%;font-size: 12px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
